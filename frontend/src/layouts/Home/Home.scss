@@ -1,0 +1,23 @@
+.Home {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 25% 45% 30%;
+  > .nav__container {
+    border: 1px solid black;
+    > .nav__list {
+      list-style: none;
+      > .nav__item {
+        > a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  > .post__container {
+    border: 1px solid black;
+  }
+  > .discover__container {
+    border: 1px solid black;
+  }
+}
